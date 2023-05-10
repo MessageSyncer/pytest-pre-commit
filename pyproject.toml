@@ -1,0 +1,17 @@
+[project]
+name = "pytest-pre-commit-hook"
+description = "A pre-commit hook for pytest"
+version = "1.0.0"
+authors = [
+    { name = "Christoph Meißner", email = "github@christophmeissner.de" }
+]
+dependencies = [
+    "setuptools",
+    "pytest",
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools",
+]
