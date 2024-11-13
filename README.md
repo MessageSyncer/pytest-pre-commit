@@ -10,7 +10,7 @@ Add this to your local `.pre-commit-config.yaml`:
 ```yaml
 # .pre-commit-config.yaml
 - repo: https://github.com/christophmeissner/pytest-pre-commit
-  rev: 0.0.1
+  rev: 1.0.0
   hooks:
   - id: pytest
     pass_filenames: false
