@@ -9,7 +9,7 @@ Add this to your local `.pre-commit-config.yaml`:
 
 ```yaml
 # .pre-commit-config.yaml
-- repo: https://github.com/christophmeissner/pytest-pre-commit
+- repo: https://github.com/MessageSyncer/pytest-pre-commit
   rev: 1.0.0
   hooks:
   - id: pytest
@@ -36,7 +36,7 @@ You can pass arguments to the invocation of `pytest` by adding an `args` list to
 
 ```yaml
 # .pre-commit-config.yaml
-- repo: https://github.com/christophmeissner/pytest-pre-commit
+- repo: https://github.com/MessageSyncer/pytest-pre-commit
   rev: 1.0.0
   hooks:
   - id: pytest
